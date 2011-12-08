@@ -1,0 +1,4 @@
+SyncWait	KEYWORD1
+
+doSyncWait	KEYWORD2
+doFinish	KEYWORD2

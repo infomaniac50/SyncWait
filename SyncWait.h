@@ -12,6 +12,7 @@
 class SyncWait
 {
   public:
+    void doSyncWait();
     void doSyncWait(const byte* startBytes, int length);
     boolean doFinish(const byte* endBytes, int length);
   private:

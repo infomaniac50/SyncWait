@@ -7,6 +7,14 @@
 #include "Arduino.h"
 #include "SyncWait.h"
 
+void SyncWait::doSyncWait()
+{
+  while(!Serial.available())
+  {
+	delay(50);
+  }
+}
+
 void SyncWait::doSyncWait(const byte* startBytes, int length)
 {
   while(checkBytes(startBytes, length))

@@ -4,7 +4,6 @@
   Released into the public domain.
 */
 
-#include "Arduino.h"
 #include "SyncWait.h"
 
 void SyncWait::doSyncWait()

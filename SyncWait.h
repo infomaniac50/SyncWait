@@ -7,7 +7,11 @@
 #ifndef SyncWait_h
 #define SyncWait_h
 
-#include "Arduino.h"
+#if (ARDUINO >= 100)
+ #include "Arduino.h"
+#else
+ #include "WProgram.h"
+#endif
 
 class SyncWait
 {

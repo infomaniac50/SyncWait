@@ -1,7 +1,11 @@
 /*
-  SyncWait.h - Library to synchronize the start of serial output with a program on a computer.
-  Created by Derek Chafin, December 6, 2011
-  Released into the public domain.
+SyncWait.h - A library to synchronize the start of serial output with a program on a computer.
+Author: Derek Chafin
+Version: 1.0
+Modified: December 19, 2011
+License
+This work is licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported License.
+To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/3.0/.
 */
 
 #ifndef SyncWait_h
